@@ -1,0 +1,372 @@
+{
+    "StatusTimestamp": "2015-09-21T09:41:21.3107448-04:00",
+    "OverallSuccess": true,
+    "SettingItems": [
+        {
+            "SettingName": "SDCUserName",
+            "SettingValue": "DEV\\SVC-Node-Service-Web",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "SDCPassword",
+            "SettingValue": "jEveXu2US7APusus",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "OasisReferenceServiceBaseUrl",
+            "SettingValue": "https://OasisReferenceApidev.ext.geicoddc.net",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "ClientServicesBaseUrl",
+            "SettingValue": "http://localhost:1350/client",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "PolicyReconInterfaceUrl",
+            "SettingValue": "https://interfaceqa.ext.geicoddc.net/App/Int/ClientOutbound/",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "GeoStanUrl",
+            "SettingValue": "https://interfacedev.ext.geicoddc.net/app/int/geostan/",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "LogGeoStanResponse",
+            "SettingValue": "true",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "SupressLevel0ValidationError",
+            "SettingValue": "false",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "SupressLevel0LookupValidationError",
+            "SettingValue": "false",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "SupressLevel1ValidationError",
+            "SettingValue": "false",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "LogLevel0ValidationError",
+            "SettingValue": "false",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "LogLevel0LookupValidationError",
+            "SettingValue": "false",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "LogLevel1ValidationError",
+            "SettingValue": "false",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "LogDuplicateClientCheck",
+            "SettingValue": "false",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "ExcludeLevel1ValidationRules",
+            "SettingValue": "13808:1.351 13808:1.352 13808:2.351 13808:2.352 13808:1.346 13808:1.35 13808:2.40 13808:2.41",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "ExcludeLookUpValidationRules",
+            "SettingValue": "",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "ExcludeMoatPolicyTransferValidationRules",
+            "SettingValue": "13808:1.19",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "ExcludeDataFixValidationRules",
+            "SettingValue": "",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "ClientSearchMaxPageSize",
+            "SettingValue": "100",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "ClientSearchDefaultPageSize",
+            "SettingValue": "10",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "LogValidationErrorsInMetrics",
+            "SettingValue": "true",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "NumberofBatchReconSchedulersToRun",
+            "SettingValue": "4",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "BatchReconFileNamePrefix",
+            "SettingValue": "BatchRecon",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "BatchReconFileNameSuffix",
+            "SettingValue": "yyyyMMdd",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "CustomRdsCaching",
+            "SettingValue": "false",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "IsAddUpdateMetricsEventsEnabled",
+            "SettingValue": "true",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "IsSearchMetricsEventsEnabled",
+            "SettingValue": "false",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "isClaimDupCheckProcessOn",
+            "SettingValue": "false",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "MSIUMBSERV",
+            "SettingValue": "MSIUMBSERV",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "MSIUMBSALE",
+            "SettingValue": "MSIUMBSALE",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "FalsePositiveRuleIds",
+            "SettingValue": "13808:1.226 13808:1.227 13808:1.36 13808:1.300",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "BusinessEventPublisher.EndpointAddress",
+            "SettingValue": "amqps://host=GZDV-APP127.dev.geicoddc.net:5671,GZDV-APP035.dev.geicoddc.net:5671,GZDV-APP036.dev.geicoddc.net:5671,GZDV-APP041.dev.geicoddc.net:5671,GZDV-APP042.dev.geicoddc.net:5671,GZDV-APP126.dev.geicoddc.net:5671; VirtualHost=BusinessEvents.Client.Vhost;username=BusinessEvents.Client.Publisher;password=mVpl7[Rd#j1bX7d;exchangename=BusinessEvents.Exchange;routingkey=BusinessEvents",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "MaximumRecordsFromCoveo",
+            "SettingValue": "18",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "IsMetricsLoggingEnabled",
+            "SettingValue": "false",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "SearchSettings_QueryHint_LastNameWildcard_UseOptimizeFor",
+            "SettingValue": "true",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "DuplicateSearchBySSNAndLicenseEnabled",
+            "SettingValue": "true",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "DuplicateClientCheckRules",
+            "SettingValue": "PMR7,PMR15,PMR2,PMR5,PMR12,PMR14",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        },
+        {
+            "SettingName": "BusinessEventPublisher.MessageBufferSize",
+            "SettingValue": "60000",
+            "Source": "App Settings",
+            "ErrorMessage": null
+        }
+    ],
+    "ConnectionStringItems": [
+        {
+            "ConnectionStringName": "LocalSqlServer",
+            "ConnectionStringValue": "data source=.\\SQLEXPRESS;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|aspnetdb.mdf;User Instance=true",
+            "ErrorMessage": ""
+        },
+        {
+            "ConnectionStringName": "ClientData",
+            "ConnectionStringValue": "Data Source=.\\SQL2012;Initial Catalog=Client;Integrated Security=SSPI; Max Pool Size=200",
+            "ErrorMessage": ""
+        },
+        {
+            "ConnectionStringName": "ClientDataReadOnly",
+            "ConnectionStringValue": "Data Source=.\\SQL2012;Initial Catalog=Client;Integrated Security=SSPI; Max Pool Size=200",
+            "ErrorMessage": ""
+        },
+        {
+            "ConnectionStringName": "ClientHistory",
+            "ConnectionStringValue": "Data Source=.\\SQL2012;Initial Catalog=ClientHistory;Integrated Security=SSPI; Max Pool Size=200",
+            "ErrorMessage": ""
+        },
+        {
+            "ConnectionStringName": "ClientHistoryReadOnly",
+            "ConnectionStringValue": "Data Source=.\\SQL2012;Initial Catalog=ClientHistory;Integrated Security=SSPI; Max Pool Size=200",
+            "ErrorMessage": ""
+        },
+        {
+            "ConnectionStringName": "ClientMirror",
+            "ConnectionStringValue": "Data Source=.\\SQL2012;Initial Catalog=ClientMirror;Integrated Security=SSPI; Max Pool Size=200",
+            "ErrorMessage": ""
+        },
+        {
+            "ConnectionStringName": "ClientMirrorHistory",
+            "ConnectionStringValue": "Data Source=.\\SQL2012;Initial Catalog=ClientMirrorHistory;Integrated Security=SSPI; Max Pool Size=200",
+            "ErrorMessage": ""
+        },
+        {
+            "ConnectionStringName": "ClientMirrorReadOnly",
+            "ConnectionStringValue": "Data Source=.\\SQL2012;Initial Catalog=ClientMirror;Integrated Security=SSPI; Max Pool Size=200",
+            "ErrorMessage": ""
+        },
+        {
+            "ConnectionStringName": "ClientMirrorHistoryReadOnly",
+            "ConnectionStringValue": "Data Source=.\\SQL2012;Initial Catalog=ClientMirrorHistory;Integrated Security=SSPI; Max Pool Size=200",
+            "ErrorMessage": ""
+        },
+        {
+            "ConnectionStringName": "ClientPMHReadOnly",
+            "ConnectionStringValue": "Data Source=.\\SQL2012;Initial Catalog=ClientPMH;Integrated Security=SSPI; Max Pool Size=200",
+            "ErrorMessage": ""
+        }
+    ],
+    "VerificationItems": [
+        {
+            "VerificationType": "Dependency Verification",
+            "Description": "Retrieving client from ClientData DB",
+            "ErrorMessage": "",
+            "Source": null
+        },
+        {
+            "VerificationType": "Dependency Verification",
+            "Description": "Retrieving client from ClientDataReadOnly DB",
+            "ErrorMessage": "",
+            "Source": null
+        },
+        {
+            "VerificationType": "Dependency Verification",
+            "Description": "Retrieving client from ClientHistory DB",
+            "ErrorMessage": "",
+            "Source": null
+        },
+        {
+            "VerificationType": "Dependency Verification",
+            "Description": "Retrieving client from ClientHistoryReadOnly DB",
+            "ErrorMessage": "",
+            "Source": null
+        },
+        {
+            "VerificationType": "Dependency Verification",
+            "Description": "Retrieving client from ClientMirror DB",
+            "ErrorMessage": "",
+            "Source": null
+        },
+        {
+            "VerificationType": "Dependency Verification",
+            "Description": "Retrieving client from ClientMirrorHistory DB",
+            "ErrorMessage": "",
+            "Source": null
+        },
+        {
+            "VerificationType": "Dependency Verification",
+            "Description": "Retrieving client from ClientMirrorReadOnly DB",
+            "ErrorMessage": "",
+            "Source": null
+        },
+        {
+            "VerificationType": "Dependency Verification",
+            "Description": "Retrieving client from ClientMirrorHistoryReadOnly DB",
+            "ErrorMessage": "",
+            "Source": null
+        },
+        {
+            "VerificationType": "Dependency Verification",
+            "Description": "Retrieving client from ClientPMHReadOnly DB",
+            "ErrorMessage": "",
+            "Source": null
+        },
+        {
+            "VerificationType": "Dependency Verification",
+            "Description": "PolicyReconInterfaceUrl connectivity",
+            "ErrorMessage": "",
+            "Source": null
+        },
+        {
+            "VerificationType": "Dependency Verification",
+            "Description": "GeoStanUrl connectivity",
+            "ErrorMessage": "",
+            "Source": null
+        },
+        {
+            "VerificationType": "Dependency Verification",
+            "Description": "OasisReferenceServiceBaseUrl connectivity",
+            "ErrorMessage": "",
+            "Source": null
+        },
+        {
+            "VerificationType": "Dependency Verification",
+            "Description": "ClientServicesBaseUrl connectivity",
+            "ErrorMessage": "",
+            "Source": null
+        }
+    ],
+    "Version": {
+        "AssemblyVersion": "7.1.0.0",
+        "AssemblyFileVersion": "7.1.0.0",
+        "ProductVersion": "7.1",
+        "BuildDate": "2015-09-21T09:35:53.4535757-04:00"
+    }
+}
